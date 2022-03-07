@@ -15,12 +15,13 @@ public class FXMLController {
 
     @FXML
     void handleBuongiorno(ActionEvent event) {
-    	System.out.println("bottone premuto");
+    	System.out.println("bottone premuto!!");
+    	System.out.println("correttamente");
     	String nome=txtNome.getText();
     	if(nome.length()==0) {
     		System.out.println("inserire nome");
     	}else {
-    		txtMessaggio.setText("buongiorno"+" "+nome+".");
+    		txtMessaggio.setText("buongiorno"+" "+nome+"."+"");
     		txtMessaggio.setText("");
     	}
     }
